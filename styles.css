@@ -166,4 +166,48 @@ a:hover {
     margin-left: 500px;
 }
 
+.cta {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    width: 840px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 30px auto 30px 200px;
+    border-radius: 5px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+}
+
+.cta-text h2 {
+    margin-bottom: 5px;
+}
+
+.cta-text p {
+    margin-top: 5px;
+}
+
+.signup-btn {
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    width: 90px;
+    height: 35px;
+    border-style: solid;
+    border-radius: 5px;
+    color: #f9faf8;
+    align-self: center;
+    margin-left: 70px;
+}
+
+.signup-btn:hover {
+    background-color: #f9faf8;
+    border-style: none;
+    color: #3882f6;
+    transition: ease-in 0.3s;
+}
+
 /* FOOTER */
